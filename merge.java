@@ -1,4 +1,4 @@
-ismport java.util.*;
+import java.util.*;
 
 class merge
 {
@@ -9,17 +9,17 @@ class merge
 		int arr1[]= new int[5];
 		int arr2[]= new int[5];
 		int merge[]=new int[10];
-		System.out.println("Enter 5 integer nos.");
+		System.out.println("Enter 5 integer nos. for array 1:");
 		for(i=0;i<5;i++)
 		{
 			arr1[i]= scan.nextInt();
 		}
-		System.out.println("Enter 5 integer nos.");
+		System.out.println("Enter 5 integer nos. for array 2:");
 		for(i=0;i<5;i++)
 		{
 			arr2[i]= scan.nextInt();
 		}
-		i=0;
+		
 		for(i=0;i<5;)
 		{
 			for(;j<5;)

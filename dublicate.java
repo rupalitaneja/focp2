@@ -1,5 +1,5 @@
 import java.util.*;
-class array1{
+class dublicate{
 	public static void main(String args[])
 	{
 	Scanner array= new Scanner(System.in);
