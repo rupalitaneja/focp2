@@ -20,8 +20,7 @@ class search{
 				System.out.println("the index of searched number is:"+i);
 			k++;
 		    }
-		}
-		if(k==0)
-			System.out.println("intex of searched no is -1");
+		}    if (k==0)
+			System.out.println("index of searched no is -1");
 	}
 }

@@ -43,11 +43,13 @@ class array5
 
          else
         {
-          arry[i][j]=arry[i][j]*5;
+          arry[i][j]=arry[i][j]*2;
          }
          
        }
 	   }
+
+     System.out.println("the array after multiplying is :")
 	 for(i=0;i<5;i++)
 	 {
 	 	for(j=0;j<5;j++)

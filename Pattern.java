@@ -6,7 +6,7 @@ class Pattern
         int rows = 5, coef = 1;
         for(int i = 0; i < rows; i++) 
         {
-            for(int space = 1; space < rows - i; ++space)
+            for(int space = 1; space <= rows-i; ++space)
              {
                 System.out.print("  ");
              }

@@ -25,7 +25,7 @@ class employee{
            { 
            Scanner in=new Scanner(System.in);
            String f,l;
-           double s;
+           double s,r;
            System.out.print("first name:");
            f=in.next();
            System.out.print("Enter last name:");
@@ -39,7 +39,7 @@ class employee{
            }while(s<0);
             employee e1=new employee(f,l,s);
             e1.displayEmp();
-            e1.yr_sal();
-            System.out.println(e1.yr_sal());
+            r=e1.yr_sal();
+            System.out.println(r);
              }
 	       }
